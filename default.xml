@@ -282,7 +282,7 @@
   <project path="vendor/cm" name="androidarmv6/android_vendor_cm" remote="github" revision="ics-plus" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" remote="github" revision="ics-plus" />
   <!-- END: androidarmv6 repos -->
-  <!-- START: teamcarbonxtreme repos -->
+  <!-- teamcarbonxtreme repositories -->
   <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="ics" />
   <project path="device/samsung/cooperve" name="BroadcomCM/android_device_samsung_cooperve" remote="github" revision="ics" />
   <project path="device/samsung/bcm21553-common" name="BroadcomCM/android_device_samsung_bcm21553-common" remote="github" revision="ics" />
@@ -291,5 +291,4 @@
   <project path="hardware/broadcom/brcm_usrlib" name="BroadcomCM/android_hardware_broadcom_brcm_usrlib" remote="github" revision="ics" />
   <project path="vendor/carbon" name="android_vendor_carbon" remote="github" revision="ics" >
     <copyfile src="tools/build-carbon.sh" dest="build-carbon.sh" />
-  <!-- END: teamcarbonxtreme repos -->
 </manifest>
