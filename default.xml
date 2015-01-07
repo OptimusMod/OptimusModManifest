@@ -273,7 +273,6 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <!-- START: androidarmv6 repos -->
-  <project path="android" name="androidarmv6/android" revision="ics-plus" />
   <project path="frameworks/base" name="androidarmv6/android_frameworks_base" remote="github" revision="ics-plus" />
   <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="github" revision="ics-plus" />
   <project path="packages/apps/CMFileManager" name="androidarmv6/android_packages_apps_CMFileManager" remote="github" revision="ics-plus" />
@@ -284,6 +283,7 @@
   <project path="vendor/google" name="androidarmv6/android_vendor_google" remote="github" revision="ics-plus" />
   <!-- END: androidarmv6 repos -->
   <!-- START: teamcarbonxtreme repos -->
+  <project path="carbonx" name="teamcarbonxtreme/carbonx" revision="ics"
   <project path="device/samsung/cooperve" name="BroadcomCM/android_device_samsung_cooperve" remote="github" revision="ics" />
   <project path="device/samsung/bcm21553-common" name="BroadcomCM/android_device_samsung_bcm21553-common" remote="github" revision="ics" />
   <project path="vendor/samsung" name="BroadcomCM/android_vendor_samsung" remote="github" revision="ics" />
