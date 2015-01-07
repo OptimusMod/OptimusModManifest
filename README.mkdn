@@ -41,7 +41,11 @@ Uploading Patches
     git commit -m "Commit message"
     repo upload .
     repo abandon ics .
+    
+Warning
+--------
 
+After the first sync repo, you can not get an update source unless you delete the file that causes the problem
 
 Disclaimer
 --------
