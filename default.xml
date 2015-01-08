@@ -289,7 +289,7 @@
   <project path="vendor/samsung" name="BroadcomCM/android_vendor_samsung" remote="github" revision="ics" />
   <project path="kernel/samsung/bcm21553-common" name="BroadcomCM/android_kernel_samsung_bcm21553-common" remote="github" revision="ics" />
   <project path="hardware/broadcom/brcm_usrlib" name="BroadcomCM/android_hardware_broadcom_brcm_usrlib" remote="github" revision="ics" />
-  <project path="vendor/carbon" name="android_vendor_carbon" remote="github" revision="ics" >
+  <project path="vendor/carbon" name="teamcarbonxtreme/android_vendor_carbon" remote="github" revision="ics" >
     <copyfile src="tools/build-carbon.sh" dest="build-carbon.sh" />
   </project>
  
