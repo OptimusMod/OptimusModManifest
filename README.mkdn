@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/developing.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/TeamCarbonXtreme/carbonx.git -b ics
+    repo init -u git://github.com/TeamCarbonXtreme/carbonx.git -b cxr-ics
 
 Then to sync up:
 
@@ -35,12 +35,12 @@ Uploading Patches
     cd WORKING_DIR
     source build/envsetup.sh
     cd PROJECT_DIR
-    repo start ics .
+    repo start cxr-ics .
     ... make changes ...
     git add .
     git commit -m "Commit message"
     repo upload .
-    repo abandon ics .
+    repo abandon cxr-ics .
     
 Warning
 --------
