@@ -346,4 +346,4 @@
   <project path="vendor/carbon" name="teamcarbonxtreme/android_vendor_carbon" remote="github" revision="ics" >
     <copyfile src="vendor/carbon/build-carbon.sh" dest="build-carbon.sh" />
     
-</manifest>
+ </manifest>
