@@ -1,4 +1,4 @@
-Android for ARMv6 and other Legacy Devices - CyanogenMod 9.0.0
+Android for ARMv6 and other Legacy Devices - CyanogenMod 10.0
 ===========
 
 Getting Started
@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/developing.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/TeamCarbonXtreme/carbonx.git -b cxr-ics
+    repo init -u git://github.com/TeamCarbonXtreme/carbonx.git -b cxr-jb
 
 Then to sync up:
 
@@ -35,12 +35,12 @@ Uploading Patches
     cd WORKING_DIR
     source build/envsetup.sh
     cd PROJECT_DIR
-    repo start cxr-ics .
+    repo start cxr-jb .
     ... make changes ...
     git add .
     git commit -m "Commit message"
     repo upload .
-    repo abandon cxr-ics .
+    repo abandon cxr-jb .
     
 Warning
 --------
