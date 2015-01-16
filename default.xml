@@ -335,7 +335,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
   <!-- TeamCarbonXtreme Repos -->
-  <project path="carbonx" name="teamcarbonxtreme/carbonx" />
+  <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="ics-jb" />
   <project path="device/samsung/cooperve" name="teamcarbonxtreme/android_device_samsung_cooperve" remote="github" revision="ics-carbonx" />
   <project path="device/samsung/bcm21553-common" name="teamcarbonxtreme/android_device_samsung_bcm21553-common" remote="github" revision="ics-carbonx" />
   <project path="vendor/samsung" name="teamcarbonxtreme/android_vendor_samsung" remote="github" revision="cm9" />
