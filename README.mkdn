@@ -12,7 +12,7 @@ familiar with [Git and Repo](http://source.android.com/source/developing.html).
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
 
-    repo init -u git://github.com/TeamCarbonXtreme/carbonx.git -b cxr-kk
+    repo init -u git://github.com/OptimusMod/carbonx.git -b cxr-kk
 
 Then to sync up:
 
