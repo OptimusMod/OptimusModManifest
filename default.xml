@@ -10,6 +10,11 @@
            review=".."
            revision="refs/heads/cxr-kk" />
 
+  <remote name="om"
+           fetch="https://github.com/OptimusMod"
+           review=".."
+           revision="refs/heads/cxr-kk" />
+
   <remote  name="github"
            fetch=".."
            review="review.androidarmv6.org" />
@@ -498,14 +503,14 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
-  <!-- teamcarbonxtreme repositories -->
-  <project path="bootable/recovery" name="TeamCarbonXtreme/android_bootable_recovery" remote="github" revision="cxr-kk" />
-  <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="cxr-kk" />
+  <!-- TeamCarbonXtreme and OptimusMod repositories -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cxr" />
+  <project path="OptimusModManifest" name="OptimusModManifest" remote="om" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cxr" />
   <project path="vendor/cm" name="android_vendor_cm" remote="cxr" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
-  <project path="vendor/cxr" name="android_vendor_cxr" remote="cxr" >
+  <project path="vendor/cxr" name="android_vendor_cxr" remote="om" >
     <copyfile src="tools/build-cxr.sh" dest="build-cxr.sh" />
   </project>
   <project path="prebuilt" name="android_prebuilt" remote="cxr" />
